@@ -1,3 +1,104 @@
-#heading{
-    color: red;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* body {
+  margin: 0;
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aliceblue;
+}
+.navItemsList {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  margin: 10px;
+  font-size: 20px;
+}
+.navItemsList:hover {
+  cursor: pointer;
+}
+.logoImage {
+  width: 100px;
+  height: 100%;
+}
+.bodyContainer {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.restaurantCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 400px;
+  padding: 5px;
+  word-wrap: break-word;
+  background-color: rgb(182, 177, 177);
+}
+.bodyContainer > .restaurantCard:hover {
+  cursor: pointer;
+  background-color: rgb(168, 174, 179);
+  border: 2px solid black;
+}
+.restaurantCard > .cardImage {
+  width: 90%;
+  height: 120px;
+  padding: 5px;
+  margin: 5px;
+  object-fit: fill;
+}
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+  width: 100%;
+}
+
+.searchContainer > .search {
+  width: 50%;
+  height: 25px;
+}
+
+.searchButton:hover {
+  cursor: pointer;
+}
+
+.shimmerContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  
+}
+.shimmerCard {
+  width: 200px;
+  height: 400px;
+  padding: 5px;
+  margin: 10px;
+  background-color: rgb(182, 177, 177);
+}
+.loginButton{
+  cursor: pointer;
+}
+
+.restaurantInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link{
+  text-decoration: none;
+}
+
+ */

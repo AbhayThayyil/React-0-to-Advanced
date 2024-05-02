@@ -1,0 +1,1678 @@
+{
+    "statusCode": 0,
+    "data": {
+        "statusMessage": "done successfully",
+        "cards": [
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+                        "text": "Teeta",
+                        "headerStyling": {
+                            "textColor": "text_Highest_Emphasis",
+                            "textVariant": "header_H3_Black"
+                        }
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+                        "tabs": [
+                            {
+                                "id": "Order Online",
+                                "title": "Order Online"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "866848",
+                            "name": "Teeta",
+                            "city": "Kochi",
+                            "slugs": {
+                                "restaurant": "teeta-vyttila-vyttila",
+                                "city": "kochi"
+                            },
+                            "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/27/297a048c-4e24-4ce5-9ba0-179ab9081679_866848.jpg",
+                            "locality": "Ramaswamy Colony",
+                            "areaName": "Vyttila",
+                            "costForTwo": "40000",
+                            "costForTwoMessage": "₹400 for two",
+                            "cuisines": [
+                                "Goan",
+                                "Desserts"
+                            ],
+                            "feeDetails": {
+                                "restaurantId": "866848",
+                                "fees": [
+                                    {
+                                        "name": "TYPE_DISTANCE"
+                                    },
+                                    {
+                                        "name": "TYPE_TIME"
+                                    }
+                                ],
+                                "title": "Delivery Charge",
+                                "amount": "0",
+                                "icon": "v1648208530/surgecreatives/info",
+                                "message": "<b>Far (8.5 kms)</b> | Additional delivery fee will apply"
+                            },
+                            "parentId": "508296",
+                            "avgRatingString": "NEW",
+                            "sla": {
+                                "restaurantId": "866848",
+                                "deliveryTime": 45,
+                                "minDeliveryTime": 40,
+                                "maxDeliveryTime": 45,
+                                "lastMileTravel": 8.5,
+                                "serviceability": "SERVICEABLE",
+                                "stressFactor": 1,
+                                "rainMode": "RAIN_MODE_NONE",
+                                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                                "zoneId": 444,
+                                "slaString": "40-45 MINS",
+                                "lastMileTravelString": "8.5 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-05-03 02:00:00",
+                                "visibility": true,
+                                "opened": true,
+                                "restaurantClosedMeta": {}
+                            },
+                            "aggregatedDiscountInfo": {
+                                "header": "FLAT40 off",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "FLAT40 off | Use FLATDEAL",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "FLAT40 off | Use FLATDEAL",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "20% off upto ₹125 | Use KOTAK811 Above ₹499",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "visible": true
+                            },
+                            "badges": {},
+                            "slugString": "teeta-vyttila-vyttila",
+                            "isOpen": true,
+                            "labels": [
+                                {
+                                    "title": "Timings",
+                                    "message": "null"
+                                },
+                                {
+                                    "title": "Address",
+                                    "message": "Shop No : CC 55 402 B , Floor : 1 , Vantage , 4th Cross Road Ramaswamy colony, Panampilly Nagar, Kochi, Ernakulam, Kerala 682036, India 682036"
+                                },
+                                {
+                                    "title": "Cuisines",
+                                    "message": "Goan,Desserts"
+                                }
+                            ],
+                            "aggregatedDiscountInfoV2": {
+                                "header": "FLAT40 off",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "FLAT40 off | Use FLATDEAL",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "FLAT40 off | Use FLATDEAL",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "20% off upto ₹125 | Use KOTAK811 Above ₹499",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "couponDetailsCta": "View coupon details"
+                            },
+                            "type": "F",
+                            "nudgeBanners": [
+                                {
+                                    "minValue": 244,
+                                    "maxValue": 349,
+                                    "priority": 1,
+                                    "couponCode": "FLATDEAL",
+                                    "discountInfo": {
+                                        "discountType": "Flat",
+                                        "value": 40
+                                    },
+                                    "lockedMessage": "Add items worth ₹<amount> to save ₹40 | Code FLATDEAL",
+                                    "unlockedMessage": "FLATDEAL Coupon Unlocked! Use it to save ₹40",
+                                    "logoCtx": {}
+                                }
+                            ],
+                            "headerBanner": {
+                                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/866848"
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {}
+                            },
+                            "hasBestsellerItems": true,
+                            "cartOrderabilityNudgeBanner": {
+                                "parameters": {},
+                                "presentation": {}
+                            },
+                            "latLong": "9.963254521984602,76.29382109077262",
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "--"
+                                }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                            "backgroundImageOverlayInfo": {}
+                        },
+                        "analytics": {}
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                        "layout": {
+                            "rows": 1,
+                            "columns": 5,
+                            "horizontalScrollEnabled": true,
+                            "itemSpacing": 12,
+                            "lineSpacing": 10,
+                            "widgetPadding": {},
+                            "containerStyle": {
+                                "containerPadding": {
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "scrollBar": {
+                                "scrollThumbColor": "#E46D47",
+                                "scrollTrackColor": "#e4e4e4",
+                                "width": 54,
+                                "height": 4,
+                                "scrollStyling": {
+                                    "padding": {
+                                        "top": 20,
+                                        "bottom": 20
+                                    }
+                                }
+                            }
+                        },
+                        "id": "offerCollectionWidget",
+                        "gridElements": {
+                            "infoWithStyle": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                                "offers": [
+                                    {
+                                        "info": {
+                                            "header": "FLAT ₹40 OFF",
+                                            "offerTag": "FLAT DEAL",
+                                            "offerTagColor": "#E46D47",
+                                            "offerIds": [
+                                                "cb747313-ecd7-4d43-8e35-b2fcb106471f"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE FLATDEAL",
+                                            "description": "ABOVE ₹349",
+                                            "offerType": "offers",
+                                            "restId": "866848",
+                                            "offerLogo": "offers/generic",
+                                            "descriptionTextColor": "#7302060C"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "20% OFF UPTO ₹125",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/4/30/dfb04dfd-509e-4fe2-896f-75e78e398330_Kotak.png",
+                                            "offerIds": [
+                                                "686370b9-7afb-435f-a8c9-c6f29cc3ac54"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE KOTAK811",
+                                            "description": "ABOVE ₹499",
+                                            "offerType": "offers",
+                                            "restId": "866848",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2024/4/30/dfb04dfd-509e-4fe2-896f-75e78e398330_Kotak.png",
+                                            "descriptionTextColor": "#7302060C"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "15% OFF UPTO ₹150",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/4/30/52c92297-cc3d-4ba0-884a-0b95c20d6894_HSBC.png",
+                                            "offerIds": [
+                                                "f46211eb-0271-4869-b931-c4e2fe8d5ae8"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE HSBCFEST",
+                                            "description": "ABOVE ₹499",
+                                            "offerType": "offers",
+                                            "restId": "866848",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2024/4/30/52c92297-cc3d-4ba0-884a-0b95c20d6894_HSBC.png",
+                                            "descriptionTextColor": "#7302060C"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "15% OFF UPTO ₹300",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/5/2/91510830-7b39-403d-ba59-977874e710d7_Citi.png",
+                                            "offerIds": [
+                                                "fcc23178-93ee-4f52-b558-67e5ec8bf848"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE CITIFOODIE",
+                                            "description": "ABOVE ₹1200",
+                                            "offerType": "offers",
+                                            "restId": "866848",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2024/5/2/91510830-7b39-403d-ba59-977874e710d7_Citi.png",
+                                            "descriptionTextColor": "#7302060C"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "FLAT ₹50 OFF",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/4/30/1b1104b6-5df9-4176-8d9b-413c90e3e7e7_ICICI.png",
+                                            "offerIds": [
+                                                "dbc356ca-b9f5-4a6f-b36a-1e3642b72055"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "NO CODE REQUIRED",
+                                            "description": "ABOVE ₹600",
+                                            "offerType": "offers",
+                                            "restId": "866848",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2024/4/30/1b1104b6-5df9-4176-8d9b-413c90e3e7e7_ICICI.png",
+                                            "descriptionTextColor": "#7302060C"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    }
+                                ],
+                                "habitMilestoneInfo": {
+                                    "callout": {}
+                                },
+                                "loyaltyDiscoverPresentationInfo": {
+                                    "logoCtx": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuTab",
+                        "tabs": [
+                            {
+                                "id": "REGULAR",
+                                "title": "Full Menu",
+                                "selected": true,
+                                "analytics": {},
+                                "selectedImage": "v1594205104/fullMenuActive_qcsdzt.png",
+                                "unselectedImage": "v1594205107/fullMenuInactive_fbdtp2.png"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "groupedCard": {
+                    "cardGroupMap": {
+                        "REGULAR": {
+                            "cards": [
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                                            "badges": {},
+                                            "vegOnlyDetails": {
+                                                "imageId": "AutoVegOnly_qkjowj",
+                                                "title": "Showing only vegetarian options.",
+                                                "description": "Tap on the VEG ONLY button to turn off the setting"
+                                            },
+                                            "topRatedFilter": {},
+                                            "kidsCategoryFilter": {
+                                                "attributes": {
+                                                    "displayText": "Kids Favourites",
+                                                    "tooltip": {
+                                                        "enabled": true,
+                                                        "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                                                    }
+                                                }
+                                            },
+                                            "vegFilter": {
+                                                "attributes": {
+                                                    "displayText": "VEG"
+                                                }
+                                            },
+                                            "nonvegFilter": {
+                                                "attributes": {
+                                                    "displayText": "NONVEG"
+                                                }
+                                            }
+                                        },
+                                        "relevance": {
+                                            "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                                            "sectionId": "MENU_FILTER_TOGGLE"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Mains",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138993693",
+                                                            "name": "Classic Chicken",
+                                                            "category": "Mains",
+                                                            "description": "Grilled, juicy chicken breast paired with pulled mashed potatoes, topped with luscious mushroom sauce.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/a691cc69-922b-41c2-8ecb-aa24b20355be_635816ca-48f0-4174-9bb5-9f804d33b833.jpeg",
+                                                            "inStock": 1,
+                                                            "price": 39375,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138993719",
+                                                            "name": "Dynamite Shrimps",
+                                                            "category": "Mains",
+                                                            "description": "Succulent shrimp, delicately coated in flour and fried to perfection, and drenched in our signature dynamite sauce.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/90224573-94ff-4a8e-820c-b1e5dae9fb47_aaef5fd4-b5c0-437d-8bcd-5b0ca46a2832.jpeg",
+                                                            "inStock": 1,
+                                                            "price": 28350,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138993731",
+                                                            "name": "Fettuccine Pasta",
+                                                            "category": "Mains",
+                                                            "description": "Al dente pasta generously coated in a creamy chicken-mushroom sauce, seasoned with fragrant parsley, parmesan cheese, and a touch of salt and pepper.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/23/abbe7fa3-b8d3-4cb9-803d-c4a4dfc135e4_f83b558b-ce73-48c3-98d3-2ad81592ed81.jpg_compressed",
+                                                            "inStock": 1,
+                                                            "price": 29375,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138993807",
+                                                            "name": "Beef Kakkaroti",
+                                                            "category": "Mains",
+                                                            "description": "A blend of exotic spices, tender cuts of beef and a fiery kick from fresh green chillies.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/23/b14ea885-618e-45d2-a9df-1c00d33c8096_38fb98eb-0e86-4e4f-b3e6-4c7788000f32.jpg",
+                                                            "inStock": 1,
+                                                            "price": 21875,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138998830",
+                                                            "name": "Cheese Chilli Fries",
+                                                            "category": "Mains",
+                                                            "description": "Crispy breaded chicken topped over golden French fries, smothered in melted cheddar cheese and fiery dynamite sauce. Finished with some chilli flakes, fresh spring onions, and red chilli.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/108a56eb-a5f6-4c16-8162-876c2a4148b9_b63134b0-e94d-4eee-b563-5d141b7a8f15.jpeg",
+                                                            "inStock": 1,
+                                                            "price": 32625,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139516127",
+                                                            "name": "Chicken Breakfast Burrito",
+                                                            "category": "Mains",
+                                                            "description": "Vibrant spring onions dance alongside fluffy scrambled eggs, all coming together in a soft tortilla wrap. Drizzled with guacamole paste and garnished with fresh coriander leaves.",
+                                                            "inStock": 1,
+                                                            "price": 23875,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139516128",
+                                                            "name": "Fried Calamari",
+                                                            "category": "Mains",
+                                                            "inStock": 1,
+                                                            "price": 28250,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139516130",
+                                                            "name": "Grilled Chicken With Hummus",
+                                                            "category": "Mains",
+                                                            "description": "Tender chicken slices, grilled to perfection, served top a bed of creamy hummus, infused with the richness of olive oil.",
+                                                            "inStock": 1,
+                                                            "price": 29375,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139516131",
+                                                            "name": "Oriental Rice With Beef",
+                                                            "category": "Mains",
+                                                            "description": "Fragrant basmati rice cooked with a blend of seven spices, enriched with the savory depth of chicken broth and a touch of butter for richness. Topped with shawarma beef and tahini.",
+                                                            "inStock": 1,
+                                                            "price": 21875,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139516132",
+                                                            "name": "Schezwan Chicken",
+                                                            "category": "Mains",
+                                                            "description": "Tender breaded chicken, coated in crispy panko crumbs and seasoned to perfection with salt and black pepper powder, meets the cool crunch of coleslaw.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/4fe75713-7156-4d6d-9c12-2c572f738719_dce840cb-a14c-401c-ad26-92f424b1b046.jpeg",
+                                                            "inStock": 1,
+                                                            "price": 35625,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139516133",
+                                                            "name": "Sora Pathiri With Chicken Ghee Roast",
+                                                            "category": "Mains",
+                                                            "description": "Soft, delicate layers, each carrying the essence of spices and coconut, paired perfectly with the rich Chicken Ghee Roast. An authentic Malabar experience",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/c5b594f9-a5fc-41ca-a79c-a819b33ec29b_59c7fa63-0e16-4fe5-96bb-12207c4c57bc.jpeg",
+                                                            "inStock": 1,
+                                                            "price": 31375,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139516126",
+                                                            "name": "Avacado Egg Toast",
+                                                            "category": "Mains",
+                                                            "description": "Fluffy poached eggs and melted feta cheese topped with creamy guacamole and drizzled with hollandaise sauce for a savory morning indulgence.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/bcca8ee8-3f49-45fb-a5eb-e9efacb5da1e_9ba696da-9a2f-49bb-ac2f-2fb3d44e5648.jpeg",
+                                                            "price": 33875,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "nextAvailableAtMessage": "Next available at 3 pm, today",
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Rolls",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139516134",
+                                                            "name": "Break Burrito",
+                                                            "category": "Rolls",
+                                                            "description": "Vibrant spring onions dance alongside fluffy scrambled eggs, all coming together in a soft tortilla wrap. Drizzled with guacamole paste and garnished with fresh coriander leaves.",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 23875,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139516135",
+                                                            "name": "Chicken Quesadilia",
+                                                            "category": "Rolls",
+                                                            "description": "Succulent chicken mix, bursting with savory goodness, is wrapped in a soft tortilla along with a generous layer of melted cheddar cheese.",
+                                                            "inStock": 1,
+                                                            "price": 25625,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138993538",
+                                                            "name": "Grilled Chicken Roll",
+                                                            "category": "Rolls",
+                                                            "description": "Indulge in our mouth-watering Chicken Wrap, featuring tender chicken in a soft tortilla with garlic or spicy mayo.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/23/e7d5afae-7cc8-4205-9a5c-716986b82ae8_1a77b1fe-f0d7-4a9f-96fd-8765ae000f73.jpg",
+                                                            "price": 15750,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "nextAvailableAtMessage": "Next available at 3 pm, today",
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138994558",
+                                                            "name": "Mexican Wrap",
+                                                            "category": "Rolls",
+                                                            "description": "A savory mix of tender chicken, black beans, and gooey mozzarella cheese wrapped in a tortilla wrap. The crispiness of tortilla and delicate cheese is a bite that you can't miss.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/23/5e5b0720-4ffe-4eb4-ae5e-8120be1c8714_950b19d9-e398-48e4-a9ef-741cf6c31adf.jpg",
+                                                            "price": 29125,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "nextAvailableAtMessage": "Next available at 3 pm, today",
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138995503",
+                                                            "name": "Mosakhan Chicken Roll",
+                                                            "category": "Rolls",
+                                                            "description": "A tantalizing fusion of tender chicken, caramelized onions, and fragrant spices, all wrapped up in a warm, fluffy roll.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/4218dd5c-ac62-47b1-8d8f-508e56a3b3b9_3a3a0caa-355d-4a6b-bf85-977e65adecf1.jpeg",
+                                                            "price": 11375,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "nextAvailableAtMessage": "Next available at 3 pm, today",
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138998747",
+                                                            "name": "Seafood Wrap",
+                                                            "category": "Rolls",
+                                                            "description": "A refreshing blend of shrimp and squid. Tossed with diced onion, garlic, and a hint of green chilli for a burst of flavour. A true Malabar and Goan fusion.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/2d61fd3f-ce16-469d-88da-c8a685bc8658_d7c85889-284c-415e-aee0-47733e8b392f.jpeg",
+                                                            "price": 16875,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "nextAvailableAtMessage": "Next available at 3 pm, today",
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Sandwich",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138993296",
+                                                            "name": "Beef Sandwich",
+                                                            "category": "Sandwich",
+                                                            "description": "Tender marinated beef grilled with onions, green capsicum, and garlic, then layered with cheddar and mozzarella cheese on freshly toasted bread",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/23/a97ddd31-061a-4052-a121-4eaf5be10d15_baf6138a-182e-4d0e-bdcd-78a5b8698c70.jpg",
+                                                            "inStock": 1,
+                                                            "price": 31875,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138993679",
+                                                            "name": "Chicken Sandwich",
+                                                            "category": "Sandwich",
+                                                            "description": "Featuring tender chicken and crisp lettuce nestled between layers of melted cheddar and mozzarella cheese on freshly toasted bread",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/0bf9ac79-a296-41db-94b0-93a94481148d_72f9f0bc-78f1-44e2-a802-9930bbbc8411.jpeg",
+                                                            "inStock": 1,
+                                                            "price": 25625,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138998792",
+                                                            "name": "Veg Sandwich",
+                                                            "category": "Sandwich",
+                                                            "description": "A delightful medley of fresh, colorful veggies layered between soft bread slices.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/651b6243-0078-4994-bf4e-9c740178a1ea_9e1aef9f-84d2-47e6-b45e-6c73525b5c0f.jpeg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 21875,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Desserts",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139003411",
+                                                            "name": "Sago Pudding",
+                                                            "category": "Desserts",
+                                                            "description": "Soft sago pearls simmered in creamy milk, sweetened with rich jaggery and coconut milk.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/493ac16f-4906-4432-9fdd-4020fa6afc79_de19ee1a-09cd-4e3f-8635-c686e1ba4ec6.jpeg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 13125,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139516136",
+                                                            "name": "Bannana Filling X4",
+                                                            "category": "Desserts",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 18063,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139516137",
+                                                            "name": "Banana Foster",
+                                                            "category": "Desserts",
+                                                            "description": "A warm, toasted bun layered with caramelized bananas and a dollop of velvety ice cream.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/d8d32bd1-bb4e-4c1c-ba25-25c41a5797de_b8967a81-f967-49cb-85f7-b1b315f15cef.jpeg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 23250,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139516138",
+                                                            "name": "Garanola Karikku",
+                                                            "category": "Desserts",
+                                                            "description": "Layering crunchy granola with ripe mango and tender karikku (tender coconut) pieces. Drizzled with creamy milk and a touch of sugar for sweetness, each layer is topped with a scoop of ice cream and a decadent swirl of caramel sauce.",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 18063,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Combos",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139516139",
+                                                            "name": "Kakka Roti With Teeta Lime",
+                                                            "category": "Combos",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 25750,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139516140",
+                                                            "name": "Oriental Rice With Fresh Lime",
+                                                            "category": "Combos",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 24438,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139516142",
+                                                            "name": "Veg Sandwich + 1 Teeta Lime",
+                                                            "category": "Combos",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 25563,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139516141",
+                                                            "name": "Teeta Lime And Grilled Roll",
+                                                            "category": "Combos",
+                                                            "isVeg": 1,
+                                                            "price": 25625,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "nextAvailableAtMessage": "Next available at 3 pm, today",
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Shakes",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138991804",
+                                                            "name": "Avocado Shake",
+                                                            "category": "Shakes",
+                                                            "description": "Blending ripe avocado with rich milk and a hint of sugar for sweetness. Served chilled with a scoop of velvety ice cream, it's a treat that combines the creamy goodness of avocado with the refreshing coolness of ice cream.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/b2a3b0b6-db54-4623-8ede-6502677ce910_0419f33b-8f79-4c17-9134-da6922a1e185.jpeg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 28063,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138993383",
+                                                            "name": "Beetroot Shake",
+                                                            "category": "Shakes",
+                                                            "description": "Blending the earthy sweetness of beetroot with the nuttiness of almonds.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/23/9e7556ff-a993-4d99-a108-512d59022e11_08a77fbb-3ec3-4f61-8c02-768e5aad9cab.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 19438,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138993804",
+                                                            "name": "Green Mango Shake",
+                                                            "category": "Shakes",
+                                                            "description": "Made with ripe mangoes and a secret natural ingredient filled with nutrition for it's green colour. Blended to creamy perfection, it's the perfect pick-me-up for any time of day.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/8098ad4d-3edf-4f2a-84dc-845ce4b14954_28963240-a72f-4437-8c1c-e0788a449049.jpeg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 21813,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138993917",
+                                                            "name": "Karikku Mango Shake",
+                                                            "category": "Shakes",
+                                                            "description": "Blending ripe mangoes and tender karikku (tender coconut) with creamy milk and a touch of sugar for sweetness. Topped with a scoop of velvety ice cream, it's a tropical delight!",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/e4e96a41-5a1c-488b-b67b-739bdbd62121_d9d8d4c3-1fce-473d-a615-df4f68c493f7.jpeg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 24063,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138997784",
+                                                            "name": "Pina Colada",
+                                                            "category": "Shakes",
+                                                            "description": "Blending sweet pineapple and tender coconut with creamy milk and a touch of sugar for sweetness. Topped with a scoop of refreshing ice cream, it's a luscious combination of tropical flavours that will transport you to paradise.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/7d610884-47bc-41a8-b747-e3e09a919ed2_ded0d016-406d-4c6d-b9d2-21ed11030adf.jpeg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 21063,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138998769",
+                                                            "name": "Strawberry Shake",
+                                                            "category": "Shakes",
+                                                            "description": "Blending fresh strawberries with creamy milk and a touch of sugar for sweetness. Topped with a scoop of indulgent ice cream.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/b95a35f3-4706-4ab3-9255-4463c8b88828_880fbcc9-ada5-4608-806e-9748e1c6b2da.jpeg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 23063,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Juices",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139516143",
+                                                            "name": "Fresh Lime",
+                                                            "category": "Juices",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 3188,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139516144",
+                                                            "name": "Pink Lime",
+                                                            "category": "Juices",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 9313,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139516145",
+                                                            "name": "Teeta Lime Regular",
+                                                            "category": "Juices",
+                                                            "description": "Juicy raw mangoes blended with fresh mint leaves, tangy lime juice.",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 6813,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Mojito",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138993758",
+                                                            "name": "Green Apple Mojito",
+                                                            "category": "Mojito",
+                                                            "description": "Tangy lime and fresh mint meet fizzy soda water, with a hint of Green apple flavor and sugar syrup, served over ice for a refreshing pick-me-up.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/2c37c60f-841d-42e8-b075-82ed2034a7b3_65597aef-bcee-4054-8775-299de0f372e7.jpeg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 16813,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138996917",
+                                                            "name": "Passion Fruit Mojito",
+                                                            "category": "Mojito",
+                                                            "description": "Tangy lime and fresh mint meet fizzy soda water, with a hint of Passion fruit flavor and sugar syrup, served over ice for a refreshing pick-me-up.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/1faa2429-aefd-4b59-ab9e-7cbca5746553_ff9255e0-7871-4bf3-93a0-0410bdb8524c.jpeg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 16813,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139516146",
+                                                            "name": "Blue Berry Mojito",
+                                                            "category": "Mojito",
+                                                            "description": "Tangy lime and fresh mint meet fizzy soda water, with a hint of Blueberry flavor and sugar syrup, served over ice for a refreshing pick-me-up.",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 16813,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                                            "type": "FSSAI",
+                                            "imageId": "fssai_final_edss9i",
+                                            "text": [
+                                                "License No. 11324007000454"
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                                            "name": "Teeta",
+                                            "area": "Vyttila",
+                                            "completeAddress": "Shop No : CC 55 402 B , Floor : 1 , Vantage , 4th Cross Road Ramaswamy colony, Panampilly Nagar, Kochi, Ernakulam, Kerala 682036, India 682036"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "firstOffsetRequest": true,
+        "isQCLink": false
+    },
+    "tid": "b1f6ab20-f029-403f-9daf-7adc967078b0",
+    "sid": "dm068546-007a-4160-a660-1af9d6ea096f",
+    "deviceId": "a452f7ba-ab0b-5f5e-4fbf-4e0ea738499e",
+    "csrfToken": "VLmlu98QYkrn-5_QTHqWj1BcdgGlxXP-iMTbmnYQ"
+}
